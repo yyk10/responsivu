@@ -64,3 +64,19 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+/*スマホサイズに変更の場合（４２５px）*/
+@media screen and (max-width:425px){
+  
+  header,main,footer{
+    width:100%;
+  }
+  main{
+    display: block;
+  }
+  
+  .step-box{
+    width:90%;
+
+  }
+}
