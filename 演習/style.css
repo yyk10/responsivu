@@ -67,20 +67,20 @@ footer {
 
 /*スマホサイズに変更の場合（768px）*/
 @media screen and (max-width:768px){
-  
+
   header,main,footer{
     width:100%;
   }
   main{
     display: block;
   }
-  
+
   .step-box{
     width:90%;
     margin-bottom: 20px;
     margin-left: 5%;
-    
+
   }
-  
-  
+
+
 }
